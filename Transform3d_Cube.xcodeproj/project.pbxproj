@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52360D6B1FD7E61400BE78F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52360D6A1FD7E61400BE78F1 /* AppDelegate.swift */; };
+		52360D701FD7E61400BE78F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52360D6E1FD7E61400BE78F1 /* Main.storyboard */; };
+		52360D721FD7E61400BE78F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52360D711FD7E61400BE78F1 /* Assets.xcassets */; };
+		52360D751FD7E61400BE78F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52360D731FD7E61400BE78F1 /* LaunchScreen.storyboard */; };
+		52360D801FD7E61400BE78F1 /* Transform3d_CubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52360D7F1FD7E61400BE78F1 /* Transform3d_CubeTests.swift */; };
+		52360D8B1FD7E61400BE78F1 /* Transform3d_CubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52360D8A1FD7E61400BE78F1 /* Transform3d_CubeUITests.swift */; };
+		52360D991FD7E63200BE78F1 /* LYCubeFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52360D981FD7E63200BE78F1 /* LYCubeFaceView.swift */; };
+		52360D9B1FD7E65D00BE78F1 /* LYCubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52360D9A1FD7E65D00BE78F1 /* LYCubeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52360D7C1FD7E61400BE78F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52360D5F1FD7E61400BE78F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52360D661FD7E61400BE78F1;
+			remoteInfo = Transform3d_Cube;
+		};
+		52360D871FD7E61400BE78F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52360D5F1FD7E61400BE78F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52360D661FD7E61400BE78F1;
+			remoteInfo = Transform3d_Cube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52360D671FD7E61400BE78F1 /* Transform3d_Cube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transform3d_Cube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52360D6A1FD7E61400BE78F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52360D6F1FD7E61400BE78F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52360D711FD7E61400BE78F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52360D741FD7E61400BE78F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52360D761FD7E61400BE78F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52360D7B1FD7E61400BE78F1 /* Transform3d_CubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Transform3d_CubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52360D7F1FD7E61400BE78F1 /* Transform3d_CubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform3d_CubeTests.swift; sourceTree = "<group>"; };
+		52360D811FD7E61400BE78F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52360D861FD7E61400BE78F1 /* Transform3d_CubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Transform3d_CubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52360D8A1FD7E61400BE78F1 /* Transform3d_CubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform3d_CubeUITests.swift; sourceTree = "<group>"; };
+		52360D8C1FD7E61400BE78F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52360D981FD7E63200BE78F1 /* LYCubeFaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCubeFaceView.swift; sourceTree = "<group>"; };
+		52360D9A1FD7E65D00BE78F1 /* LYCubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYCubeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52360D641FD7E61400BE78F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52360D781FD7E61400BE78F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52360D831FD7E61400BE78F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52360D5E1FD7E61400BE78F1 = {
+			isa = PBXGroup;
+			children = (
+				52360D691FD7E61400BE78F1 /* Transform3d_Cube */,
+				52360D7E1FD7E61400BE78F1 /* Transform3d_CubeTests */,
+				52360D891FD7E61400BE78F1 /* Transform3d_CubeUITests */,
+				52360D681FD7E61400BE78F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52360D681FD7E61400BE78F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52360D671FD7E61400BE78F1 /* Transform3d_Cube.app */,
+				52360D7B1FD7E61400BE78F1 /* Transform3d_CubeTests.xctest */,
+				52360D861FD7E61400BE78F1 /* Transform3d_CubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52360D691FD7E61400BE78F1 /* Transform3d_Cube */ = {
+			isa = PBXGroup;
+			children = (
+				52360D6A1FD7E61400BE78F1 /* AppDelegate.swift */,
+				52360D9A1FD7E65D00BE78F1 /* LYCubeViewController.swift */,
+				52360D981FD7E63200BE78F1 /* LYCubeFaceView.swift */,
+				52360D6E1FD7E61400BE78F1 /* Main.storyboard */,
+				52360D711FD7E61400BE78F1 /* Assets.xcassets */,
+				52360D731FD7E61400BE78F1 /* LaunchScreen.storyboard */,
+				52360D761FD7E61400BE78F1 /* Info.plist */,
+			);
+			path = Transform3d_Cube;
+			sourceTree = "<group>";
+		};
+		52360D7E1FD7E61400BE78F1 /* Transform3d_CubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				52360D7F1FD7E61400BE78F1 /* Transform3d_CubeTests.swift */,
+				52360D811FD7E61400BE78F1 /* Info.plist */,
+			);
+			path = Transform3d_CubeTests;
+			sourceTree = "<group>";
+		};
+		52360D891FD7E61400BE78F1 /* Transform3d_CubeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52360D8A1FD7E61400BE78F1 /* Transform3d_CubeUITests.swift */,
+				52360D8C1FD7E61400BE78F1 /* Info.plist */,
+			);
+			path = Transform3d_CubeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52360D661FD7E61400BE78F1 /* Transform3d_Cube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52360D8F1FD7E61400BE78F1 /* Build configuration list for PBXNativeTarget "Transform3d_Cube" */;
+			buildPhases = (
+				52360D631FD7E61400BE78F1 /* Sources */,
+				52360D641FD7E61400BE78F1 /* Frameworks */,
+				52360D651FD7E61400BE78F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transform3d_Cube;
+			productName = Transform3d_Cube;
+			productReference = 52360D671FD7E61400BE78F1 /* Transform3d_Cube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52360D7A1FD7E61400BE78F1 /* Transform3d_CubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52360D921FD7E61400BE78F1 /* Build configuration list for PBXNativeTarget "Transform3d_CubeTests" */;
+			buildPhases = (
+				52360D771FD7E61400BE78F1 /* Sources */,
+				52360D781FD7E61400BE78F1 /* Frameworks */,
+				52360D791FD7E61400BE78F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52360D7D1FD7E61400BE78F1 /* PBXTargetDependency */,
+			);
+			name = Transform3d_CubeTests;
+			productName = Transform3d_CubeTests;
+			productReference = 52360D7B1FD7E61400BE78F1 /* Transform3d_CubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52360D851FD7E61400BE78F1 /* Transform3d_CubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52360D951FD7E61400BE78F1 /* Build configuration list for PBXNativeTarget "Transform3d_CubeUITests" */;
+			buildPhases = (
+				52360D821FD7E61400BE78F1 /* Sources */,
+				52360D831FD7E61400BE78F1 /* Frameworks */,
+				52360D841FD7E61400BE78F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52360D881FD7E61400BE78F1 /* PBXTargetDependency */,
+			);
+			name = Transform3d_CubeUITests;
+			productName = Transform3d_CubeUITests;
+			productReference = 52360D861FD7E61400BE78F1 /* Transform3d_CubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52360D5F1FD7E61400BE78F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = luoyue;
+				TargetAttributes = {
+					52360D661FD7E61400BE78F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					52360D7A1FD7E61400BE78F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52360D661FD7E61400BE78F1;
+					};
+					52360D851FD7E61400BE78F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52360D661FD7E61400BE78F1;
+					};
+				};
+			};
+			buildConfigurationList = 52360D621FD7E61400BE78F1 /* Build configuration list for PBXProject "Transform3d_Cube" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52360D5E1FD7E61400BE78F1;
+			productRefGroup = 52360D681FD7E61400BE78F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52360D661FD7E61400BE78F1 /* Transform3d_Cube */,
+				52360D7A1FD7E61400BE78F1 /* Transform3d_CubeTests */,
+				52360D851FD7E61400BE78F1 /* Transform3d_CubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52360D651FD7E61400BE78F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52360D751FD7E61400BE78F1 /* LaunchScreen.storyboard in Resources */,
+				52360D721FD7E61400BE78F1 /* Assets.xcassets in Resources */,
+				52360D701FD7E61400BE78F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52360D791FD7E61400BE78F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52360D841FD7E61400BE78F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52360D631FD7E61400BE78F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52360D9B1FD7E65D00BE78F1 /* LYCubeViewController.swift in Sources */,
+				52360D991FD7E63200BE78F1 /* LYCubeFaceView.swift in Sources */,
+				52360D6B1FD7E61400BE78F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52360D771FD7E61400BE78F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52360D801FD7E61400BE78F1 /* Transform3d_CubeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52360D821FD7E61400BE78F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52360D8B1FD7E61400BE78F1 /* Transform3d_CubeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52360D7D1FD7E61400BE78F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52360D661FD7E61400BE78F1 /* Transform3d_Cube */;
+			targetProxy = 52360D7C1FD7E61400BE78F1 /* PBXContainerItemProxy */;
+		};
+		52360D881FD7E61400BE78F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52360D661FD7E61400BE78F1 /* Transform3d_Cube */;
+			targetProxy = 52360D871FD7E61400BE78F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52360D6E1FD7E61400BE78F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52360D6F1FD7E61400BE78F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52360D731FD7E61400BE78F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52360D741FD7E61400BE78F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52360D8D1FD7E61400BE78F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52360D8E1FD7E61400BE78F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52360D901FD7E61400BE78F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P47KV3GL6X;
+				INFOPLIST_FILE = Transform3d_Cube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wd.Transform3d-Cube";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52360D911FD7E61400BE78F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P47KV3GL6X;
+				INFOPLIST_FILE = Transform3d_Cube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wd.Transform3d-Cube";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52360D931FD7E61400BE78F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P47KV3GL6X;
+				INFOPLIST_FILE = Transform3d_CubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wd.Transform3d-CubeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transform3d_Cube.app/Transform3d_Cube";
+			};
+			name = Debug;
+		};
+		52360D941FD7E61400BE78F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P47KV3GL6X;
+				INFOPLIST_FILE = Transform3d_CubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wd.Transform3d-CubeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transform3d_Cube.app/Transform3d_Cube";
+			};
+			name = Release;
+		};
+		52360D961FD7E61400BE78F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P47KV3GL6X;
+				INFOPLIST_FILE = Transform3d_CubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wd.Transform3d-CubeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Transform3d_Cube;
+			};
+			name = Debug;
+		};
+		52360D971FD7E61400BE78F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P47KV3GL6X;
+				INFOPLIST_FILE = Transform3d_CubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wd.Transform3d-CubeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Transform3d_Cube;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52360D621FD7E61400BE78F1 /* Build configuration list for PBXProject "Transform3d_Cube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52360D8D1FD7E61400BE78F1 /* Debug */,
+				52360D8E1FD7E61400BE78F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52360D8F1FD7E61400BE78F1 /* Build configuration list for PBXNativeTarget "Transform3d_Cube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52360D901FD7E61400BE78F1 /* Debug */,
+				52360D911FD7E61400BE78F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52360D921FD7E61400BE78F1 /* Build configuration list for PBXNativeTarget "Transform3d_CubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52360D931FD7E61400BE78F1 /* Debug */,
+				52360D941FD7E61400BE78F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52360D951FD7E61400BE78F1 /* Build configuration list for PBXNativeTarget "Transform3d_CubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52360D961FD7E61400BE78F1 /* Debug */,
+				52360D971FD7E61400BE78F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52360D5F1FD7E61400BE78F1 /* Project object */;
+}
